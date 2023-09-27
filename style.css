@@ -29,7 +29,7 @@ p.example {
 }
 
 .hero-wrapper {
-    background: url('../images/https://miro.medium.com/v2/resize:fit:1100/format:webp/1*IXvi9erXUxVwfDrz5egYrw.jpeg');
+    background: url('https://cdn.mos.cms.futurecdn.net/qJtpL2pS4tALgHVgRTfSX7-415-80.jpg');
     background-size: cover;
 }
 
