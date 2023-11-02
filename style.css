@@ -1,20 +1,25 @@
 
 body {
     background-color: black;
-    color: white;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .order-table {
     width: 100%;
-    border-collapse: collapse;
     text-align: center;
 }
 
-.order-table tr {
-    border-bottom: 1px solid white;
+.order-table td {
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
 }
 
-.order-table td {
-    padding: 10px;
+.order-table td:nth-child(2) {
+    width: 50%;
 }
