@@ -12,7 +12,7 @@ body {
 }
 
 .column {
-    width: calc(33.33% - 4px); /* 33.33% for equal division, subtract 4px for borders */
+    width: calc(33.33% - 4px); 
     padding: 20px;
     border: 2px solid white;
     text-align: center;
