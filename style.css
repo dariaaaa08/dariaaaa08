@@ -1,53 +1,25 @@
-/* Style for the container */
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
-/* Style for each column */
 .column {
-    width: 30%;
+    width: calc(33.33% - 4px); /* 33.33% for equal division, subtract 4px for borders */
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    background-color: #f9f9f9;
-}
-
-/* Header style */
-h1 {
+    border: 2px solid white;
     text-align: center;
+    color: white;
+}
+
+h1 {
     font-size: 20px;
-    color: #333;
-}
-
-/* List style */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-/* List item style */
-li {
-    margin: 10px 0;
-    padding: 5px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-}
-
-/* Define colors for different columns */
-#to-do {
-    border-color: #ffcccb;
-    background-color: #ffe4e1;
-}
-
-#in-progress {
-    border-color: #ffeb99;
-    background-color: #fff3e6;
-}
-
-#done {
-    border-color: #c2f0c2;
-    background-color: #e6ffe6;
+    margin: 0;
 }
